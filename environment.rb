@@ -21,6 +21,7 @@ configure do
   set :root, APP_ROOT.to_path
   set :views, File.join(APP_ROOT, "app", "views")
   enable :sessions
+  set :session_secret, ENV['SESSION_SECRET'] || 'this is a secret shhhhh'
 end
 
 configure :development do
