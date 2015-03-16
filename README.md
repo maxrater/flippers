@@ -49,4 +49,13 @@ You should be all set up at this point. You should have a master branch which is
 
 ## Daily Release:
 
+Each Day you will want to fetch from base to get the days challenge. 
+
+```
+$ git fetch base
+$ git co day-1
+$ git push origin day-1
+```
+
+Now follow the directions in the README.md
 
