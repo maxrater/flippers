@@ -1,0 +1,7 @@
+<ul>
+  <% @flippers.each do |cur_flipper| %>
+    <li>
+      <a href= "/flippers/<%=cur_flipper.id%>"><%= cur_flipper.name %></a> 
+    </li>
+  <% end %>
+</ul>
