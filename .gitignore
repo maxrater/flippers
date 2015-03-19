@@ -9,6 +9,7 @@
 /test/version_tmp/
 /tmp/
 !public
+
 ## Specific to RubyMotion:
 .dat*
 .repl_history
